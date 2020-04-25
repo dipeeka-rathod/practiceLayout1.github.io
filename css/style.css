@@ -1,0 +1,105 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.pullR{
+	Float:right;
+}
+.pullL{
+	Float:left;
+}
+.overh{
+	overflow:hidden;
+}
+.container{
+	width:750px;
+	margin:0 auto;
+	border:1px solid black;
+}
+header{
+	background-color:#0076ea;
+	color:#fff;
+	padding:5px 0; 
+}
+nav ul{
+	list-style:none;
+}
+nav ul li{
+	display:inline-block;
+	padding:10px;
+}
+nav ul li:hover{
+	background-color:#0076ea;
+	color:#fff;
+}
+nav ul li a:hover{
+	color:#fff;
+}
+nav ul li a{
+	text-decoration:none;
+	color:#0076ea;
+	text-transform:uppercase;
+}
+nav ul li a.active{
+	color:#000;
+}
+nav>div>a.logo{
+	padding-top:10px;
+	display:inline-block;
+	text-decoration:none;
+	color:#0076ea;
+	padding:10px;
+}
+.banner-section{
+	background:url('../images/mechanic-doing-car-repair.jpg') no-repeat;
+	min-height:350px;
+	position:relative;
+}
+.bg{
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	background-color:rgba(0,0,0,0.8);
+	z-index:1;
+}
+.info{
+	z-index:99;
+	position:absolute;
+	color:#fff;
+	margin-top:100px;
+	margin-left:30px;
+}
+.info h2{
+	font-size:26px;
+	text-transform:uppercase;
+}
+.info h1{
+	font-size:50px;
+}
+/* .content ul { */
+	/* height:10px; */
+	/* width:10px; */
+  /* list-style-image: url('../images/verified.png'); */
+/* } */
+.content ul{
+	position:relative;
+}
+.content ul li{
+   list-style: none;
+}
+.content ul li:before{
+   content: '';
+   display: inline-block;
+   height: y;
+   width: x;
+   background-image: url('../images/verified.png');
+   left:0;
+   top:0;
+   position:absolute;
+}
